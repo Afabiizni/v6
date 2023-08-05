@@ -55,7 +55,7 @@ if [ "" = "$PKG_OK" ]; then
   echo -e "[ ${yell}WARNING${NC} ] Try to install ...."
   echo "No $REQUIRED_PKG. Setting up $REQUIRED_PKG."
   apt-get --yes install $REQUIRED_PKG
-  echo " [ OTW UPDATE REPOSITORY ] " | lolcat
+  echo " [ UPDATE PACKAGES ] "
   sleep 3
   echo -e "[ ${tyblue}NOTES${NC} ] If error you need.. to do this"
   echo -e "[ ${tyblue}NOTES${NC} ] 1. apt update -y"
@@ -117,7 +117,7 @@ echo ""
 wget -q https://raw.githubusercontent.com/artanodrop/v4/main/tools.sh;chmod +x tools.sh;./tools.sh
 rm tools.sh
 clear
-yellow "MASUKAN DOMAIN MU WAHAI BEBAN"
+yellow "MASUKAN DOMAIN KAMU"
 echo " "
 read -rp "input Your Domain : " -e pp
     if [ -z $pp ]; then
@@ -138,7 +138,7 @@ echo -e "$green          Install UPMENU             $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear  
-wget https://raw.githubusercontent.com/Afabiizni/v6/main/updatemenu/updatemenu.sh && chmod +x updatemenu.sh && ./updatemenu.sh
+#wget https://raw.githubusercontent.com/Afabiizni/v6/main/updatemenu/updatemenu.sh && chmod +x updatemenu.sh && ./updatemenu.sh
 #install ssh ovpn
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green      Install SSH / WS               $NC"
