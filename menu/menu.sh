@@ -230,7 +230,7 @@ echo -e "${BICyan} ┌───────────────────�
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}Fejray Al-Fajry${NC}"
 echo -e "${BICyan} │"
 echo -e "${BICyan} │  ${BICyan}Use Core        :  ${BIPurple}$Name${NC}"
-echo -e "${BICyan} │  ${BICyan}Domain          :  ${BIPurple}$(cat /var/lib/scrz-prem/ipvps.conf | cut -d'=' -f2) ${NC}"
+echo -e "${BICyan} │  ${BICyan}Domain          :  ${BIPurple}(cat /var/lib/SIJA/ipvps.conf)"
 echo -e "${BICyan} │  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
