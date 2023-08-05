@@ -89,6 +89,7 @@ IPurple='\033[0;95m'      # Purple
 ICyan='\033[0;96m'        # Cyan
 IWhite='\033[0;97m'       # White
 NC='\e[0m'
+Domen="$(cat /etc/xray/domain)"
 #Download/Upload today
 dtoday="$(vnstat -i eth0 | grep "today" | awk '{print $2" "substr ($3, 1, 1)}')"
 utoday="$(vnstat -i eth0 | grep "today" | awk '{print $5" "substr ($6, 1, 1)}')"
@@ -230,8 +231,7 @@ echo -e "${BICyan} ┌───────────────────�
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}Fejray Al-Fajry${NC}"
 echo -e "${BICyan} │"
 echo -e "${BICyan} │  ${BICyan}Use Core        :  ${BIPurple}$Name${NC}"
-echo -e "${BICyan} │  ${BICyan}Domain          :  ${BIPurple}$(cat /var/lib/SIJA/ipvps.conf)"
-echo -e "${BICyan} │  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
+echo -e "${BICyan} │  ${BICyan}Domain          :  ${BIPurple}$Domen"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
 echo -e "   ${BICyan}     STUNNEL ${NC}: $resst" "${BICyan} DROPBEAR ${NC}: $resdbr" "${BICyan} SSH-WS ${NC}: $ressshws"
