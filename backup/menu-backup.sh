@@ -51,7 +51,8 @@ fi
 if [ $bro = 2 ] || [ $bro = 2 ]
 then
 figlet "Restore" | lolcat
-wget https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/restore.sh && chmod +x restore.sh && ./restore.sh
+#wget https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/restore.sh && chmod +x restore.sh && ./restore.sh
+bash restore.sh
 echo "--------------------------------------------------------"
 echo
 echo "SCRIPT FEJRAY"
