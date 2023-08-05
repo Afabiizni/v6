@@ -86,4 +86,4 @@ echo
 echo "SCRIPT FEJRAY"
 echo
 echo "--------------------------------------------------------"
-fi￼Enter
+fi￼
