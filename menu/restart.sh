@@ -44,8 +44,7 @@ case $Restart in
                 /etc/init.d/openvpn restart
                 /etc/init.d/fail2ban restart
                 /etc/init.d/cron restart
-                /etc/init.d/nginx restart
-                /etc/init.d/nginx service
+                /etc/init.d/nginx restart           
                 /etc/init.d/squid restart
                 echo -e "[ \033[32mok\033[0m ] Restarting xray Service (via systemctl) "
                 sleep 0.5
