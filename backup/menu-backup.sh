@@ -40,7 +40,7 @@ read -p    "Pilih Nomor └╼>>>" bro
 if [ $bro = 1 ] || [ $bro = 1 ]
 then
 figlet "backup" | lolcat
-backup
+wget https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/backup.sh && chmod +x backup.sh && ./backup.sh
 echo "--------------------------------------------------------"
 echo
 echo "SCRIPT FEJRAY"
@@ -51,7 +51,7 @@ fi
 if [ $bro = 2 ] || [ $bro = 2 ]
 then
 figlet "Restore" | lolcat
-restore
+wget https://raw.githubusercontent.com/Bringas-tunnel/v5/main/backup/restore.sh && chmod +x restore.sh && ./restore.sh
 echo "--------------------------------------------------------"
 echo
 echo "SCRIPT FEJRAY"
