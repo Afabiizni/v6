@@ -31,9 +31,6 @@ echo -e "${BlueCyan}Pilih Nomor: "
 echo
 echo "1).Backup"
 echo "2).Restore"
-echo "3).strt"
-echo "4).limit speed"
-echo "5).autobackup"
 echo
 echo -e "${ungu}++++++++++++++++++++++++++++++++++++++++++++"
 echo
