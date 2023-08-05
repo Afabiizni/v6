@@ -192,7 +192,7 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 read -n 1 -s -r -p "Press any key to back on menu"
 setting-menu
 else
-echo "$host" > /var/lib/scrz-prem/ipvps.conf
+echo "$host" > /var/lib/SIJA/ipvps.conf
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo "Dont forget to renew cert"
 echo ""
@@ -203,7 +203,7 @@ fi
 function genssl(){
 clear
 systemctl stop nginx
-domain=$(cat /var/lib/scrz-prem/ipvps.conf | cut -d'=' -f2)
+domain=$(cat /var/lib/SIJA/ipvps.conf | cut -d'=' -f2)
 Cek=$(lsof -i:80 | cut -d' ' -f1 | awk 'NR==2 {print $1}')
 if [[ ! -z "$Cek" ]]; then
 sleep 1
