@@ -242,7 +242,7 @@ echo -e "${BICyan} ┌───────────────────�
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}01${BICyan}] SSH     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}06${BICyan}] TRIALL      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}  │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}02${BICyan}] VMESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}07${BICyan}] BACKUP      ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}  │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}03${BICyan}] VLESS   ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}08${BICyan}] ADD-HOST    ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}  │"
-echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}09${BICyan}] GEN SSL     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}  │"
+echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}04${BICyan}] TROJAN  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}09${BICyan}] RUNNING     ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}  │"
 echo -e "${BICyan} │${NC}   ${BICyan}[${BIWhite}05${BICyan}] SETING  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}  ""   ${BICyan}[${BIWhite}10${BICyan}] SET REBOOT  ${BICyan}[${BIYellow}Menu${BICyan}]${NC}" "${BICyan}  │${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "         ${BICyan}┌─────────────────────────────────────┐${NC}"
@@ -262,7 +262,7 @@ case $otw in
 6) clear ; menu-trial ;;
 7) clear ; menu-backup ;;
 8) clear ; addhost ;;
-9) clear ; genssl ;;
+9) clear ; status ;;
 10) clear ; jam ;;
 6969) clear ; wget https://raw.githubusercontent.com/Afabiizni/v6/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
