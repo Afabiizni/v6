@@ -262,7 +262,7 @@ case $otw in
 6) clear ; menu-trial ;;
 7) clear ; menu-backup ;;
 8) clear ; addhost ;;
-9) clear ; status ;;
+9) clear ; running ;;
 10) clear ; jam ;;
 6969) clear ; wget https://raw.githubusercontent.com/Afabiizni/v6/main/update.sh && chmod +x update.sh && ./update.sh && rm -f /root/update.sh ;;
 0) clear ; menu ;;
