@@ -230,7 +230,7 @@ echo -e "${BICyan} ┌───────────────────�
 echo -e "${BICyan} │                  ${BIWhite}${UWhite}Fejray Al-Fajry${NC}"
 echo -e "${BICyan} │"
 echo -e "${BICyan} │  ${BICyan}Use Core        :  ${BIPurple}$Name${NC}"
-echo -e "${BICyan} │  ${BICyan}Domain          :  ${BIPurple}$(cat /etc/xray/domain)${NC}"
+echo -e "${BICyan} │  ${BICyan}Domain          :  ${BIPurple}$domain${NC}"
 echo -e "${BICyan} │  ${BICyan}IP-VPS          :  ${BIYellow}$IPVPS${NC}"
 echo -e "${BICyan} └─────────────────────────────────────────────────────┘${NC}"
 echo -e "     ${BICyan} SSH ${NC}: $ressh"" ${BICyan} NGINX ${NC}: $resngx"" ${BICyan}  XRAY ${NC}: $resv2r"" ${BICyan} TROJAN ${NC}: $resv2r"
@@ -248,7 +248,7 @@ echo -e "${BICyan} └───────────────────�
 echo -e "         ${BICyan}┌─────────────────────────────────────┐${NC}"
 echo -e "         ${BICyan}│  Version     ${NC} : Lib3v / v4 Lts."
 echo -e "         ${BICyan}│  Expired     ${NC} : ${BIYellow}$Exp${NC} Days"
-echo -e "         ${BICyan}│  Develover ${NC} : FEJRAY"
+echo -e "         ${BICyan}│  Develover   ${NC} : FEJRAY"
 echo -e "         ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
 read -p " select menu [ 1 / 10 ] --- >>     " otw
